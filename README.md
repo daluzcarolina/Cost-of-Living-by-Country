@@ -5,13 +5,13 @@
 
 ---
 
-## 📌 Contexto
+## Contexto
 
 Entender como o custo de vida varia ao redor do mundo é essencial para decisões sobre onde morar, trabalhar ou expandir negócios. Este projeto parte de dados do índice Numbeo 2024 para explorar correlações entre os principais componentes do custo de vida e, em seguida, treina um modelo de **Random Forest** para prever o índice de aluguel com base nas demais variáveis.
 
 ---
 
-## ❓ Perguntas Investigadas
+## Perguntas Investigadas
 
 - Quais países têm o maior e menor custo de vida?
 - Como aluguel, alimentação e restaurantes se correlacionam com o custo geral?
@@ -21,7 +21,7 @@ Entender como o custo de vida varia ao redor do mundo é essencial para decisõe
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Atributo | Detalhe |
 |---|---|
@@ -40,11 +40,11 @@ Entender como o custo de vida varia ao redor do mundo é essencial para decisõe
 | `Restaurant Price Index` | Preços em restaurantes |
 | `Local Purchasing Power Index` | Poder de compra local |
 
-> 📎 Índice acima de 100 = mais caro que Nova York. Abaixo de 100 = mais barato.
+>  Índice acima de 100 = mais caro que Nova York. Abaixo de 100 = mais barato.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas&logoColor=white)
@@ -55,7 +55,7 @@ Entender como o custo de vida varia ao redor do mundo é essencial para decisõe
 
 ---
 
-## 🔍 Estrutura da Análise
+## Estrutura da Análise
 
 ```
 1. Carregamento e inspeção inicial (shape, dtypes, nulos)
@@ -69,18 +69,18 @@ Entender como o custo de vida varia ao redor do mundo é essencial para decisõe
 
 ---
 
-## 📈 Principais Resultados
+##  Principais Resultados
 
-### 🌐 Extremos globais
+###  Extremos globais
 A análise identificou os países com maior e menor custo de vida no mundo em 2024. Os países mais caros concentram-se na **Europa Ocidental e Oceania**, enquanto os mais baratos estão no **Sul da Ásia e África**.
 
-### 🔗 Correlações encontradas
+###  Correlações encontradas
 Os scatter plots revelaram correlações positivas entre o custo de vida geral e os índices de aluguel, alimentação e restaurantes — confirmando que esses componentes se movem juntos. A relação com o **poder de compra local** é mais dispersa, indicando que países caros **nem sempre** oferecem poder de compra proporcional.
 
 ### 🇧🇷 Posição do Brasil
 O Brasil apresenta um custo de vida abaixo da média global, mas com poder de compra local relativamente baixo em comparação a países com índices similares — evidenciando uma pressão econômica real sobre a população.
 
-### 🤖 Modelo Preditivo — Random Forest
+###  Modelo Preditivo — Random Forest
 O modelo foi treinado para prever o **Rent Index** com base nos demais índices, usando pipeline com pré-processamento automático (StandardScaler + OneHotEncoder).
 
 | Métrica | Descrição |
@@ -93,7 +93,7 @@ O modelo foi treinado para prever o **Rent Index** com base nos demais índices,
 
 ---
 
-## 📉 Visualizações Produzidas
+##  Visualizações Produzidas
 
 - **Histogramas** de todos os índices — distribuição por variável
 - **Scatter plots** — custo de vida × aluguel, alimentação e poder de compra
@@ -102,7 +102,7 @@ O modelo foi treinado para prever o **Rent Index** com base nos demais índices,
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 - Python 3.8+
@@ -122,11 +122,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook cost-of-living-by-country.ipynb
 ```
 
-> ⚠️ O dataset original está disponível no [Kaggle](https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024). Faça o download e coloque o CSV na pasta antes de rodar.
+>  O dataset original está disponível no [Kaggle](https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024). Faça o download e coloque o CSV na pasta antes de rodar.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Cost-of-Living-by-Country/
@@ -137,7 +137,7 @@ Cost-of-Living-by-Country/
 
 ---
 
-## 🔮 Próximos Passos
+## Próximos Passos
 
 - [ ] Adicionar mapa coroplético interativo com Plotly para visualização geográfica
 - [ ] Incluir análise por região/continente com agrupamento manual
@@ -146,14 +146,14 @@ Cost-of-Living-by-Country/
 
 ---
 
-## 📚 Referências
+## Referências
 
 - [Numbeo — Cost of Living](https://www.numbeo.com/cost-of-living/)
 - [Kaggle — Cost of Living Index by Country 2024](https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024)
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Carolina Luz**  
 Analista de Dados | Python · SQL · Power BI
@@ -164,4 +164,4 @@ Analista de Dados | Python · SQL · Power BI
 
 ---
 
-> 💡 *Este projeto faz parte do meu portfólio de análise de dados. Feedbacks são bem-vindos!*
+>  *Este projeto faz parte do meu portfólio de análise de dados. Feedbacks são bem-vindos!*
