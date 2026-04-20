@@ -1,7 +1,7 @@
 #  Custo de Vida por País — Análise Exploratória e Modelagem Preditiva
 
 > **Onde no mundo o seu dinheiro rende mais?**  
-> Uma análise exploratória e modelo preditivo do custo de vida em mais de 100 países, investigando padrões entre aluguel, alimentação, poder de compra — e o que esses índices revelam sobre a economia global.
+> Uma análise exploratória e modelo preditivo do custo de vida em mais de 100 países, investigando padrões entre aluguel, alimentação, poder de compra e o que esses índices revelam sobre a economia global.
 
 ---
 
